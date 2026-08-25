@@ -157,7 +157,7 @@ button.carousel-control-next.justify-content-end {
   height: 100%;
   width: 100%;
   display: block;
-  background-image: url('slider-hero-banner/leaf-right.png');
+  background-image: url('leaf-right.png');
   background-position: left bottom ;
   background-size: 50%;
   background-repeat: no-repeat;
@@ -175,7 +175,7 @@ button.carousel-control-next.justify-content-end {
   height: 100%;
   width: 100%;
   display: block;
-  background-image: url('slider-hero-banner/leaf-left.png');
+  background-image: url('leaf-left.png');
   background-position: right bottom 10%;
   background-size: 50%;
   background-repeat: no-repeat;
@@ -201,7 +201,7 @@ button.btn.btn-outline-success.scroll-down-btn {
 }
 .coral-oral-favs{
     background-color: #526D39;
-    background-image: url(slider-hero-banner/coral-oral-light.png);
+    background-image: url(coral-oral-light.png);
     padding-top: 5%;
     padding-bottom: 5%;
     background-repeat: no-repeat;
@@ -239,7 +239,7 @@ button.btn.btn-outline-success.scroll-down-btn {
     right: 0;
     bottom: -23px;
     left: 0;
-    background-image: url(slider-hero-banner/snake-vector.png);
+    background-image: url(snake-vector.png);
     background-repeat: no-repeat;
     background-size: 10%;
     background-position: bottom;
@@ -538,7 +538,7 @@ button.navbar-toggler {
     right: 0;
     bottom: -23px;
     left: 0;
-    background-image: url(slider-hero-banner/white-snake.png);
+    background-image: url(white-snake.png);
     background-repeat: no-repeat;
     background-size: 10%;
     background-position: bottom;
@@ -666,12 +666,12 @@ button.navbar-toggler {
     position: absolute;
     display: block;
     background-image: 
-    url(slider-hero-banner/wash-comunity.png), 
-    url(slider-hero-banner/Coral_Oral_Kit-3.png), 
-    url(slider-hero-banner/coconut-bottom.png), 
-    url(slider-hero-banner/charcoal-brush.png), 
-    url(slider-hero-banner/brush-kit.png),
-    url(slider-hero-banner/community-before.png);
+    url(wash-comunity.png), 
+    url(Coral_Oral_Kit-3.png), 
+    url(coconut-bottom.png), 
+    url(charcoal-brush.png), 
+    url(brush-kit.png),
+    url(community-before.png);
     background-size: 10%, 10%, 8%, 15%, 10%, 12%;
     background-position: left top 20%, left 20% bottom, left 50% bottom, left 80% bottom, right bottom 60%, top -20% right;
     top: -0%;
@@ -729,7 +729,7 @@ img.bundle-img {
     content: "";
     position: absolute;
     display: block;
-    background-image: url(slider-hero-banner/left-perks.png);
+    background-image: url(left-perks.png);
     top: -10%;
     right: 0;
     left: 0;
@@ -813,7 +813,7 @@ img.bundle-img {
 
 .container-fluid.fact-container {
 background-color: #66534D;
-    background-image: url(slider-hero-banner/coral-oral-light.png);
+    background-image: url(coral-oral-light.png);
     padding-top: 5%;
     padding-bottom: 5%;
     background-repeat: no-repeat;
@@ -876,7 +876,7 @@ background-color: #66534D;
     right: 0;
     bottom: -23px;
     left: 0;
-    background-image: url(slider-hero-banner/snake-vector.png);
+    background-image: url(snake-vector.png);
     background-repeat: no-repeat;
     background-size: 20%;
     background-position:left bottom;
@@ -894,7 +894,7 @@ background-color: #66534D;
     right: 0;
     bottom: -23px;
     left: 0;
-    background-image: url(slider-hero-banner/snake-vector.png);
+    background-image: url(snake-vector.png);
     background-repeat: no-repeat;
     background-size: 20%;
     background-position:center bottom;
@@ -913,7 +913,7 @@ background-color: #66534D;
     right: 0;
     bottom: -23px;
     left: 0;
-    background-image: url(slider-hero-banner/white-snake.png);
+    background-image: url(white-snake.png);
     background-repeat: no-repeat;
     background-size: 10%;
     background-position:center bottom;
@@ -995,7 +995,7 @@ background-color: #66534D;
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url(slider-hero-banner/right-myth-bg.png);
+    background-image: url(right-myth-bg.png);
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 10%;
@@ -1009,7 +1009,7 @@ background-color: #66534D;
     right: 0;
     bottom: -10%;
     left: 0;
-    background-image: url(slider-hero-banner/left-myth-bg.png);
+    background-image: url(left-myth-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 10%;
@@ -1052,11 +1052,11 @@ h3.acc-title {
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url(slider-hero-banner/acc-plus.png) !important;
+    background-image: url(acc-plus.png) !important;
 }
 
 .accordion-button::after {
-    background-image: url(slider-hero-banner/acc-plus.png) !important;
+    background-image: url(acc-plus.png) !important;
 }
 
 
@@ -1218,12 +1218,12 @@ h3.footer-title {
     position: absolute;
     display: block;
     background-image: 
-    url(slider-hero-banner/wash-comunity.png), 
-    url(slider-hero-banner/mobile-Coral_Oral_Kit-3.png), 
-    url(slider-hero-banner/coconut-bottom.png), 
-    url(slider-hero-banner/mobile-charcoal.png), 
-    url(slider-hero-banner/brush-kit.png),
-    url(slider-hero-banner/community-before.png);
+    url(wash-comunity.png), 
+    url(mobile-Coral_Oral_Kit-3.png), 
+    url(coconut-bottom.png), 
+    url(mobile-charcoal.png), 
+    url(brush-kit.png),
+    url(community-before.png);
     background-size: 130px, 120px, 130px, 130px, 110px, 130px;
     background-position: left top 10%, left 0% top 60%, left -3% bottom, right 0% bottom 10%, right bottom 67%, top -4% right;
     top: -0%;
