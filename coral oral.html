@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="coraloral.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container-fluid top-header">
+    <p class="text-center mb-0">Free Shipping over $50 | Join our Subscription & Save</p>
+  </div>
+  <div class="container-fluid navbar-menu">
+    <div class="container-xxl">
+
+      <nav class="navbar navbar-light bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="shopping cart/logo-img.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu"
+            aria-controls="mobileMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="mobileMenuLabel">Menu</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <ul class="navbar-nav d-flex">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          <div class="shopping-item d-flex gap-3">
+            <a href="#"><img src="shopping cart/Search.png" alt=""></a>
+            <a href="#"><img src="shopping cart/Cart.png" alt=""></a>
+            <a href="#"><img src="shopping cart/User Profile.png" alt=""></a>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="container-fliud carousel-caontainer-hero">
+    <div id="coralCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="slider-content d-flex align-items-left justify-content-left text-left">
+            <div class="container-xxl">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-md-6">
+                  <div class="slider-text">
+                    <div class="stars d-flex"><img src="slider-hero-banner/stars-img.png" alt="">
+                      <p class="subtitle">10,000+ sold</p>
+                    </div>
+                    <h1>Empowering Healthier Smiles</h1>
+                    <p>Empowering healthier smiles with purpose-driven, dentist-recommended brushes - now available on
+                      subscription.</p>
+                    <a href="#" class="btn btn-success banner-btn">Shop Now <img src="slider-hero-banner/up right.png"
+                        alt=""></a>
+                  </div>
+                </div>
+                <div class="col-md-6 text-end">
+                  <div class="image-wrapper">
+                    <img src="slider-hero-banner/mouth-wash-banner.png" alt="Coral Oral Bottle" class="bottle-img  ">
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="container-xxl">
+            <div class="row coral-oral  justify-content-center align-items-center">
+              <div class="col-md-6">
+                <div class="slider-content d-flex align-items-left justify-content-left text-left">
+
+                  <div class="slider-text">
+                    <div class="stars d-flex "><img src="slider-hero-banner/stars-img.png" alt="">
+                      <p class="subtitle">10,000+ sold</p>
+                    </div>
+                    <h1>Peppermint Spearmint Freshness</h1>
+                    <p>Over 10,000+ sold. Loved by smiles everywhere.</p>
+                    <a href="#" class="btn btn-success banner-btn">Shop Now <img src="slider-hero-banner/up right.png"
+                        alt=""></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 text-end">
+                <div class="image-wrapper">
+                  <img src="slider-hero-banner/mouth-wash-banner.png" alt="Coral Oral Bottle" class="bottle-img  ">
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev justify-content-start" type="button" data-bs-target="#coralCarousel"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next justify-content-end" type="button" data-bs-target="#coralCarousel"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+
+    </div>
+    <div class="scroll-down-wrapper text-center">
+      <button class="btn btn-outline-success scroll-down-btn ">Scroll Down <img src="slider-hero-banner/scroll-down.png"
+          alt=""></button>
+    </div>
+  </div>
+
+
+
+  <div class="container-fluid coral-oral-favs">
+    <div class="container-xxl">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>Coral Oral Favs</h2>
+            <p>A charitable simple smile can make someone’s day! Smile more confidently!</p>
+          </div>
+        </div>
+        <div class="container py-2">
+          <div class="row g-4">
+
+            <!-- Product 1 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="card h-100 text-center">
+                <img src="slider-hero-banner/tooth-brush.jpg" class="card-img-top" alt="4-Pack Toothbrushes">
+                <div class="card-body">
+                  <h5 class="card-title">4-Pack Toothbrushes</h5>
+                  <p class="text-warning"><span>★★★★★</span> 4.8 </p>
+                  <p class="card-text text-muted"><del>$12.00</del> <strong>$7.99</strong></p>
+
+                  <a href="#" class="btn btn-success">Buy Now</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="card h-100 text-center">
+                <img src="slider-hero-banner/cleaner.jpg" class="card-img-top" alt="Floss Picks">
+                <div class="card-body">
+                  <h5 class="card-title">Floss Picks</h5>
+                  <p class="text-warning"><span>★★★★★</span> 4.8 </p>
+                  <p class="card-text text-muted"><del>$9.00</del> <strong>$6.99</strong></p>
+
+                  <a href="#" class="btn btn-success">Buy Now</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="card h-100 text-center">
+                <img src="slider-hero-banner/mouth-wash-prod.png" class="card-img-top" alt="Mouth Wash">
+                <div class="card-body">
+                  <h5 class="card-title">Mouth Wash</h5>
+                  <p class="text-warning"><span>★★★★★</span> 4.8 </p>
+                  <p class="card-text text-muted"><del>$18.00</del> <strong>$15.88</strong></p>
+
+                  <a href="#" class="btn btn-success">Buy Now</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="card h-100 text-center">
+                <img src="slider-hero-banner/tooth-paste.png" class="card-img-top" alt="Charcoal Toothpaste">
+                <div class="card-body">
+                  <h5 class="card-title">Charcoal Toothpaste</h5>
+                  <p class="text-warning"><span>★★★★★</span> 4.8 </p>
+                  <p class="card-text text-muted"><del>$12.00</del> <strong>$7.99</strong></p>
+
+                  <a href="#" class="btn btn-success">Buy Now</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Shop All Button -->
+          <div class="text-center mt-4">
+            <a href="#" class="btn btn-outline-success">Shop All Dental Products</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <section class="container-fluid py-5" id="testimonials">
+    <div class="container-xxl">
+      <div class="text-center mb-4">
+        <div class="section-title">
+          <h2>What the experts say</h2>
+          <p>Some advice from your favorite dentists</p>
+        </div>
+      </div>
+
+      <!-- Swiper Container -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <!-- Testimonial Slide -->
+          <div class="swiper-slide">
+            <div class="testimonial-card border rounded shadow-sm text-center">
+              <img src="slider-hero-banner/testimonial-icon.png" alt="Dr. John Smith" class="testimonial-img mb-3" />
+              <h5>Dr. John Smith <span>Dentist</span></h5>
+              <p>"I recommend it to my patients looking for a better alternative for their oral health."</p>
+              <img src="slider-hero-banner/author-img.png" alt="Dr. John Smith" class="author-img mt-3" />
+            </div>
+          </div>
+
+          <!-- Repeat for more testimonials -->
+          <div class="swiper-slide">
+            <div class="testimonial-card border rounded shadow-sm text-center">
+              <img src="slider-hero-banner/testimonial-icon.png" alt="Dr. John Smith" class="testimonial-img mb-3" />
+              <h5>Dr. John Smith <span>Dentist</span></h5>
+              <p>"I recommend it to my patients looking for a better alternative for their oral health."</p>
+              <img src="slider-hero-banner/author-img.png" alt="Dr. John Smith" class="author-img mt-3" />
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-card border rounded shadow-sm text-center">
+              <img src="slider-hero-banner/testimonial-icon.png" alt="Dr. John Smith" class="testimonial-img mb-3" />
+              <h5>Dr. John Smith <span>Dentist</span></h5>
+              <p>"I recommend it to my patients looking for a better alternative for their oral health."</p>
+              <img src="slider-hero-banner/author-img.png" alt="Dr. John Smith" class="author-img mt-3" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-card border rounded shadow-sm text-center">
+              <img src="slider-hero-banner/testimonial-icon.png" alt="Dr. John Smith" class="testimonial-img mb-3" />
+              <h5>Dr. John Smith <span>Dentist</span></h5>
+              <p>"I recommend it to my patients looking for a better alternative for their oral health."</p>
+              <img src="slider-hero-banner/author-img.png" alt="Dr. John Smith" class="author-img mt-3" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-card border rounded shadow-sm text-center">
+              <img src="slider-hero-banner/testimonial-icon.png" alt="Dr. John Smith" class="testimonial-img mb-3" />
+              <h5>Dr. John Smith <span>Dentist</span></h5>
+              <p>"I recommend it to my patients looking for a better alternative for their oral health."</p>
+              <img src="slider-hero-banner/author-img.png" alt="Dr. John Smith" class="author-img mt-3" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-card border rounded shadow-sm text-center">
+              <img src="slider-hero-banner/testimonial-icon.png" alt="Dr. John Smith" class="testimonial-img mb-3" />
+              <h5>Dr. John Smith <span>Dentist</span></h5>
+              <p>"I recommend it to my patients looking for a better alternative for their oral health."</p>
+              <img src="slider-hero-banner/author-img.png" alt="Dr. John Smith" class="author-img mt-3" />
+            </div>
+          </div>
+        </div>
+        <!-- Pagination Only -->
+        <div class="swiper-pagination mt-5"></div>
+      </div>
+    </div>
+
+
+
+
+
+
+  </section>
+
+  <section class="container-fluid logos-container">
+    <div class="container-xxl">
+      <div class="section-title pt-1">
+        <h2>As Featured In</h2>
+
+      </div>
+      <div class="marquee-container pb-5 pt-4">
+        <div class="marquee-content">
+          <img src="slider-hero-banner/logo1.jpg" alt="WELL+GOOD" class="marquee-logo" />
+          <img src="slider-hero-banner/logo2.jpg" alt="Healthline" class="marquee-logo" />
+          <img src="slider-hero-banner/logo3.jpg" alt="TODAY" class="marquee-logo" />
+          <img src="slider-hero-banner/logo1.jpg" alt="Healthline" class="marquee-logo" />
+          <img src="slider-hero-banner/logo2.jpg" alt="Healthline" class="marquee-logo" />
+          <img src="slider-hero-banner/logo3.jpg" alt="Healthline" class="marquee-logo" />
+          <img src="slider-hero-banner/logo1.jpg" alt="WELL+GOOD" class="marquee-logo" />
+          <img src="slider-hero-banner/logo2.jpg" alt="Healthline" class="marquee-logo" />
+          <img src="slider-hero-banner/logo3.jpg" alt="TODAY" class="marquee-logo" />
+          <img src="slider-hero-banner/logo1.jpg" alt="Healthline" class="marquee-logo" />
+          <img src="slider-hero-banner/logo2.jpg" alt="Healthline" class="marquee-logo" />
+          <img src="slider-hero-banner/logo3.jpg" alt="Healthline" class="marquee-logo" />
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="container-fluid mission-container ">
+    <div class="container-xxl">
+      <div class="row mission-row gx-5 gy-5">
+        <div class="col-lg-6">
+          <div class="image-wrapper">
+            <img src="slider-hero-banner/mouth-wash-girl.jpg" alt="">
+          </div>
+
+        </div>
+        <div class="col-lg-6">
+          <div class="section-title">
+            <h2>Our Mission</h2>
+            <p>As a Black-owned brand, we craft natural oral care that protects more than teeth—it protects the bond
+              that makes us one human family.</p>
+          </div>
+          <div class="mission">
+            <ul>
+              <li><img src="slider-hero-banner/mint.png" alt="" class="li-img-mission">
+                <div class="inner-li">
+                  <p>Mint</p><span>Lorem Ipsum is simply dummy text of the printing.</span>
+                </div>
+              </li>
+              <li><img src="slider-hero-banner/charcol.png" alt="" class="li-img-mission">
+                <div class="inner-li">
+                  <p>Charcoal</p><span>Lorem Ipsum is simply dummy text of the printing.</span>
+                </div>
+              </li>
+              <li><img src="slider-hero-banner/coconut.png" alt="" class="li-img-mission">
+                <div class="inner-li">
+                  <p>Coconut Oil</p><span>Lorem Ipsum is simply dummy text of the printing.</span>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid community-container">
+    <div class="container-xxl">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="section-title">
+            <h2>Here’s why our community keeps coming back</h2>
+
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12">
+          <div class="care-box">
+            <div class="care-icon"><img src="slider-hero-banner/plant.png" alt=""></div>
+            <h4>Plant-powered</h4>
+            <p>Formulas from our charcoal toothpaste to our concentrated, alcohol-free mouthwash.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12">
+          <div class="care-box">
+            <div class="care-icon"><img src="slider-hero-banner/heart.png" alt=""></div>
+            <h4>We’re America’s first Black-owned oral care brand</h4>
+            <p>Crafted with essential oils like peppermint and tea tree to fight bacteria, freshen breath.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12">
+          <div class="care-box">
+            <div class="care-icon"><img src="slider-hero-banner/aim.png" alt=""></div>
+            <h4>Purpose in every<br> product designed</h4>
+            <p>With clean ingredients, cultural intention, and better results in mind.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12">
+          <div class="care-box">
+            <div class="care-icon"><img src="slider-hero-banner/essentials.png" alt=""></div>
+            <h4>Essentials</h4>
+            <p>That actually work and look<br> good doing it.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid review">
+    <div class="container-xxl">
+      <div class="row review-row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>Testimonials</h2>
+
+          </div>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="review-card">
+                <div class="author-detail">
+                  <div class="author-img"><img src="slider-hero-banner/diana.png" alt=""></div>
+                  <div class="author-title">
+                    <h4>Diana K.</h4>
+                    <p>Atlanta, GA</p>
+                  </div>
+                </div>
+                <div class="card-det">
+                  <p>Not only do I love how this brush feels, but I love supporting a Black-owned brand doing amazing
+                    things. The packaging was beautiful too!</p>
+                  <div class="review-stars"><img src="slider-hero-banner/review-stars.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <!---swipersilde2--->
+            <div class="swiper-slide">
+              <div class="review-card">
+                <div class="author-detail">
+                  <div class="author-img"><img src="slider-hero-banner/diana.png" alt=""></div>
+                  <div class="author-title">
+                    <h4>Diana K.</h4>
+                    <p>Atlanta, GA</p>
+                  </div>
+                </div>
+                <div class="card-det">
+                  <p>Not only do I love how this brush feels, but I love supporting a Black-owned brand doing amazing
+                    things. The packaging was beautiful too!</p>
+                  <div class="review-stars"><img src="slider-hero-banner/review-stars.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+
+            <!---swipersilde3--->
+            <div class="swiper-slide">
+              <div class="review-card">
+                <div class="author-detail">
+                  <div class="author-img"><img src="slider-hero-banner/diana.png" alt=""></div>
+                  <div class="author-title">
+                    <h4>Diana K.</h4>
+                    <p>Atlanta, GA</p>
+                  </div>
+                </div>
+                <div class="card-det">
+                  <p>Not only do I love how this brush feels, but I love supporting a Black-owned brand doing amazing
+                    things. The packaging was beautiful too!</p>
+                  <div class="review-stars"><img src="slider-hero-banner/review-stars.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <!---swipersilde4--->
+            <div class="swiper-slide">
+              <div class="review-card">
+                <div class="author-detail">
+                  <div class="author-img"><img src="slider-hero-banner/diana.png" alt=""></div>
+                  <div class="author-title">
+                    <h4>Diana K.</h4>
+                    <p>Atlanta, GA</p>
+                  </div>
+                </div>
+                <div class="card-det">
+                  <p>Not only do I love how this brush feels, but I love supporting a Black-owned brand doing amazing
+                    things. The packaging was beautiful too!</p>
+                  <div class="review-stars"><img src="slider-hero-banner/review-stars.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <!---swipersilde5--->
+            <div class="swiper-slide">
+              <div class="review-card">
+                <div class="author-detail">
+                  <div class="author-img"><img src="slider-hero-banner/diana.png" alt=""></div>
+                  <div class="author-title">
+                    <h4>Diana K.</h4>
+                    <p>Atlanta, GA</p>
+                  </div>
+                </div>
+                <div class="card-det">
+                  <p>Not only do I love how this brush feels, but I love supporting a Black-owned brand doing amazing
+                    things. The packaging was beautiful too!</p>
+                  <div class="review-stars"><img src="slider-hero-banner/review-stars.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination mt-0"></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--new section--->
+  <div class="container-fluid perks">
+    <div class="container-xxl">
+      <div class="row perks-row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>Bundle for Amazing Perks</h2>
+          </div>
+        </div>
+        <!--test---->
+        <div class="col-lg-3 col-xsm-12 ship-col">
+          <div class="ship-box">
+            <div class="icon"><img src="slider-hero-banner/cart-icon-shiip.png" alt=""></div>
+            <h4 class="title">Free Shipping Over $50</h4>
+          </div>
+          <div class="ship-box">
+            <div class="icon"><img src="slider-hero-banner/flower.png" alt=""></div>
+            <h4 class="title">1 Free Item</h4>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12"><img src="slider-hero-banner/bundle-img.png" alt="" class="bundle-img"></div>
+        <div class="col-lg-3 col-xsm-12 ship-col">
+
+          <div class="ship-box">
+            <div class="icon"><img src="slider-hero-banner/percentage.png" alt=""></div>
+            <h4 class="title">15% off First Order</h4>
+          </div>
+          <div class="ship-box">
+            <div class="icon"><img src="slider-hero-banner/change.png" alt=""></div>
+            <h4 class="title">Make Changes</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----newsection--->
+  <div class="container-fluid fact-container">
+    <div class="container-xxl">
+      <div class="row fact-row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>Fact vs Myth</h2>
+          </div>
+        </div>
+        <div class="container py-5 inner-fact">
+
+          <div class="row bg-transparent fw-bold text-left  rounded py-2 mb-2">
+            <div class="col-6 col-md-6 text-white">
+              <h4 class="fact-title">MYTH</h4>
+            </div>
+            <div class="col-6 col-md-6 text-white">
+              <h4 class="fact-title">FACT</h4>
+            </div>
+          </div>
+
+          <!-- Row 1 -->
+          <div class="row border-bottom py-2">
+            <div class="col-6 col-md-6 text-white"><img src="slider-hero-banner/cross.png" alt="" class="cross-img">No
+              fluoride = no protection</div>
+            <div class="col-6 col-md-6 text-white"><img src="slider-hero-banner/green-check.png" alt=""
+                class="cross-img">Good habits + safe pastes still protect</div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="row border-bottom py-2">
+            <div class="col-6 col-md-6 text-white"><img src="slider-hero-banner/cross.png" alt=""
+                class="cross-img">Crunchy fruits replace brushing</div>
+            <div class="col-6 col-md-6 text-white"><img src="slider-hero-banner/green-check.png" alt=""
+                class="cross-img">Helpful, but never a replacement</div>
+          </div>
+
+          <!-- Row 3 -->
+          <div class="row border-bottom py-2">
+            <div class="col-6 col-md-6 text-white"><img src="slider-hero-banner/cross.png" alt="" class="cross-img">Only
+              chemicals fight bad breath</div>
+            <div class="col-6 col-md-6 text-white"><img src="slider-hero-banner/green-check.png" alt=""
+                class="cross-img">Clove, peppermint, neem kill bacteria</div>
+          </div>
+
+          <!-- Row 4 -->
+          <div class="row border-bottom py-2">
+            <div class="col-6 col-md-6 text-white"><img src="slider-hero-banner/cross.png" alt=""
+                class="cross-img">Natural toothpaste doesn’t clean</div>
+            <div class="col-6 col-md-6 text-white"><img src="slider-hero-banner/green-check.png" alt=""
+                class="cross-img">Baking soda & safe abrasives clean well</div>
+          </div>
+
+          <!-- Row 5 -->
+          <div class="row py-2">
+            <div class="col-6 col-md-6 text-white"><img src="slider-hero-banner/cross.png" alt=""
+                class="cross-img">Scrubbing hard removes stains</div>
+            <div class="col-6 col-md-6 text-white"><img src="slider-hero-banner/green-check.png" alt=""
+                class="cross-img">Harsh abrasives damage enamel</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!----Second-Last-section---->
+  <div class="container-fluid myth-container">
+    <div class="container-xxl">
+      <div class="row fact-row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>Fact vs Myth</h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="accordion" id="accordionExample">
+            <h3 class="acc-title">Products & Ingredients</h3>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  What does the Coral Oral Kit include?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  This is the first item’s accordion body.It is shown by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These classes control the overall appearance,
+                  as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+                  overriding our default variables. It’s also worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  What’s special about the mouthwash...
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  This is the second item’s accordion body. It is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These classes control the overall appearance,
+                  as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+                  overriding our default variables. It’s also worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What makes your toothbrushes stand out?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  This is the third item’s accordion body. It is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These classes control the overall appearance,
+                  as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+                  overriding our default variables. It’s also worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  What makes your toothbrushes stand out?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  This is the third item’s accordion body. It is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These classes control the overall appearance,
+                  as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+                  overriding our default variables. It’s also worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Are your products safe for sensitive mouths?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  This is the third item’s accordion body. It is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These classes control the overall appearance,
+                  as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+                  overriding our default variables. It’s also worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="accordion" id="accordionShipping">
+            <h3 class="acc-title">Shipping</h3>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                  aria-expanded="true" aria-controls="collapseSix">
+                  What does the Coral Oral Kit include?
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse show" data-bs-parent="#accordionShipping">
+                <div class="accordion-body">
+                  This is the first item's accordion body...
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  What’s special about the mouthwash...
+                </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionShipping">
+                <div class="accordion-body">
+                  This is the second item's accordion body...
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                  What makes your toothbrushes stand out?
+                </button>
+              </h2>
+              <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionShipping">
+                <div class="accordion-body">
+                  This is the third item's accordion body...
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                  What makes your toothbrushes stand out?
+                </button>
+              </h2>
+              <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionShipping">
+                <div class="accordion-body">
+                  This is the fourth item's accordion body...
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                  Are your products safe for sensitive mouths?
+                </button>
+              </h2>
+              <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionShipping">
+                <div class="accordion-body">
+                  This is the fifth item's accordion body...
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+  <div class="accordion" id="accordionPolicies">
+    <h3 class="acc-title">Polices</h3>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEve" aria-expanded="true" aria-controls="collapseEve">
+          What does the Coral Oral Kit include?
+        </button>
+      </h2>
+      <div id="collapseEve" class="accordion-collapse collapse show" data-bs-parent="#accordionPolicies">
+        <div class="accordion-body">
+          This is the first item's accordion body...
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+          What’s special about the mouthwash...
+        </button>
+      </h2>
+      <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionPolicies">
+        <div class="accordion-body">
+          This is the second item's accordion body...
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+          What makes your toothbrushes stand out?
+        </button>
+      </h2>
+      <div id="collapseThirteen" class="accordion-collapse collapse" data-bs-parent="#accordionPolicies">
+        <div class="accordion-body">
+          This is the third item's accordion body...
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+          What makes your toothbrushes stand out?
+        </button>
+      </h2>
+      <div id="collapseFourteen" class="accordion-collapse collapse" data-bs-parent="#accordionPolicies">
+        <div class="accordion-body">
+          This is the fourth item's accordion body...
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFivteen" aria-expanded="false" aria-controls="collapseFivteen">
+          Are your products safe for sensitive mouths?
+        </button>
+      </h2>
+      <div id="collapseFivteen" class="accordion-collapse collapse" data-bs-parent="#accordionPolicies">
+        <div class="accordion-body">
+          This is the fifth item's accordion body...
+        </div>
+      </div>
+    </div>        
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer id="page-footer" class="footer-sec text-white pt-5 text-center">
+    <div class="container-xxl">
+      <div class="row footer-row">
+        <div class="col-lg-4 col-md-6 col-sm12 ">
+          <div class="footer-box">
+            <div class="footer-logo"><img src="slider-hero-banner/footer-logo.png" alt=""></div>
+            <div class="content">
+              <p>Turn your daily routine into a bold statement. Join now and enjoy exclusive perks.</p>
+              <form class="inline-email-form">
+                <input type="email" placeholder="E-mail" required>
+                <button type="submit"><img src="slider-hero-banner/arrow-right-sub.png" alt=""></button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm12  pad-left">
+          <h3 class="footer-title text-start">Menu</h3>
+          <div class="menu-container text-start">
+            <ul class="list-block mb-0 p-0">
+              <li class="list-block-item"><a href="#" class="text-white text-decoration-none">Home</a></li>
+              <li class="list-block-item"><a href="#" class="text-white text-decoration-none">Shop</a></li>
+              <li class="list-block-item"><a href="#" class="text-white text-decoration-none">Wholesale</a></li>
+              <li class="list-block-item"><a href="#" class="text-white text-decoration-none">FAQ</a></li>
+              <li class="list-block-item"><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm12 ">
+          <h3 class="footer-title text-start">Footer menu</h3>
+          <div class="menu-container text-start">
+            <ul class="list-block mb-0 p-0">
+              <li class="list-block-item"><a href="#" class="text-white text-decoration-none">Distributors |
+                  Wholesale</a></li>
+              <li class="list-block-item"><a href="#" class="text-white text-decoration-none">For Every Dental
+                  Office</a></li>
+              <li class="list-block-item"><a href="#" class="text-white text-decoration-none">Frequently Asked
+                  Questions</a></li>
+              <li class="list-block-item"><a href="#" class="text-white text-decoration-none">Policies</a></li>
+              <li class="list-block-item"><a href="#" class="text-white text-decoration-none">Search</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm12  pad-left">
+          <h3 class="footer-title text-start">Contact Information</h3>
+          <div class="menu-container text-start">
+            <ul class="list-block mb-0 p-0">
+              <li class="list-block-item"><a href="#" class="text-white text-decoration-none">www.coraloral.com</a></li>
+              <li class="list-block-item"><a href="#" class="text-white text-decoration-none">info@coraloral.com</a>
+              </li>
+              <li class="list-block-item"><a href="#" class="text-white text-decoration-none">+1 800 123 1234</a></li>
+            </ul>
+          </div>
+
+          <div class="cradit-card-items">
+            <div class="card-container text-start">
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item"><a href="#" class="text-white text-decoration-none"><img
+                      src="slider-hero-banner/master-card.png" alt=""></a></li>
+                <li class="list-inline-item"><a href="#" class="text-white text-decoration-none"><img
+                      src="slider-hero-banner/visa-card.png" alt=""></a></li>
+                <li class="list-inline-item"><a href="#" class="text-white text-decoration-none"><img
+                      src="slider-hero-banner/master-card-blue.png" alt=""></a></li>
+                <li class="list-inline-item"><a href="#" class="text-white text-decoration-none"><img
+                      src="slider-hero-banner/paypal.png" alt=""></a></li>
+                <li class="list-inline-item"><a href="#" class="text-white text-decoration-none"><img
+                      src="slider-hero-banner/master-card-red.png" alt=""></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <p class="copy-right ">Power by Techinvention© 2025 Coral Oral</p>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <script src="coraloral.js"></script>
+
+
+
+</body>
+
+</html>
